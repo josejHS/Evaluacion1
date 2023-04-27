@@ -1,0 +1,6 @@
+with open('myfile.json') as archivo:
+    ourjson = json.load(archivo)
+
+print(ourjson)
+
+
